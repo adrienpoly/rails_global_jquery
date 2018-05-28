@@ -3,6 +3,5 @@ class PagesController < ApplicationController
   end
 
   def click
-    #code
   end
 end
