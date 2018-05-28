@@ -1,3 +1,5 @@
+// default to jQuery is not working
 document.querySelector('#feedback').innerHTML = "jQuery don't work"
 
-$("#feedback").html = "jQuery works"
+// if jQuery works overwrite feedback
+$("#feedback").html("jQuery works")
